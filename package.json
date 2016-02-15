@@ -5,12 +5,19 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "lint": "eslint . --ext .js --ext .jsx || true"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "css-loader": "^0.23.1",
+    "eslint-loader": "^1.2.1",
+    "jshint": "^2.9.1",
+    "jshint-loader": "^0.8.3",
+    "npm-install-webpack-plugin": "^2.0.2",
+    "style-loader": "^0.13.0",
     "webpack": "^1.12.13",
     "webpack-dev-server": "^1.14.1",
     "webpack-merge": "^0.7.3"
