@@ -1,3 +1,100 @@
 body {
-  background: lightgrey;
+  background: cornsilk;
+  font-family: sans-serif;
+}
+
+div.content {
+  background: #ffffff;
+  padding: 15px;
+}
+
+.menu-links {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+div.header {
+  height: 200px;
+  border-bottom: 4px solid black;
+  background-image: url(http://cdn.wonderfulengineering.com/wp-content/uploads/2014/04/code-wallpaper-7.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: -15px;
+  padding: 15px;
+  width: 100%;
+  color: white;
+  text-shadow: 2px 2px #000000;
+}
+
+div.footer {
+  height: 40px;
+  border-top: 4px solid black;
+  background-color: cornsilk;
+  padding: 15px;
+  width: 100%;
+  color: #000;
+  text-shadow: 1px 1px #fff;
+  margin: 0px -15px -15px -15px;
+}
+
+div.menu {
+  height: 25px;
+  border-bottom: 2px solid black;
+  background-color: wheat;
+  margin: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -15px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.add-note {
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+}
+
+.notes {
+  margin: 0.5em;
+  padding-left: 0;
+
+  max-width: 10em;
+  list-style: none;
+}
+.note {
+  margin-bottom: 0.5em;
+  padding: 0.5em;
+
+  background-color: #fdfdfd;
+  box-shadow: 0 0 0.3em 0.03em rgba(0, 0, 0, 0.3);
+}
+.note:hover {
+  box-shadow: 0 0 0.3em 0.03em rgba(0, 0, 0, 0.7);
+
+  transition: 0.6s;
+}
+
+.note .task {
+  /* force to use inline-block so that it gets minimum height */
+  display: inline-block;
+}
+
+.note .delete-note {
+  float: right;
+
+  padding: 0;
+
+  background-color: #fdfdfd;
+  border: none;
+
+  cursor: pointer;
+
+  visibility: hidden;
+}
+.note:hover .delete-note {
+  visibility: visible;
 }
