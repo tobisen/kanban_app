@@ -5,6 +5,6 @@ export default () => <div className="menu">
   <span className="menu-links">
     <Link to="/">START</Link> |
     <Link to="/app"> KANBAN APP</Link> |
-    <Link to="/links"> LÄNKAR</Link>
+    <Link to="/tutorial"> TUTORIAL</Link>
   </span>
 </div>;
